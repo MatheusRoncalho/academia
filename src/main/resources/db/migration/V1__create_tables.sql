@@ -5,7 +5,7 @@ CREATE TABLE aluno (
                         telefone VARCHAR(20),
                         email VARCHAR(100),
                         data_nascimento DATE,
-                         data_cadastro DATE NOT NULL,
+                        data_cadastro DATE NOT NULL,
                         status VARCHAR(20) NOT NULL CHECK (status IN ('ATIVO', 'INATIVO', 'SUSPENSO')),
                         criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                         atualizado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP
