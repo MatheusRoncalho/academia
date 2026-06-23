@@ -1,4 +1,4 @@
-package com.roncalho.academia.Dto.Out;
+package com.roncalho.academia.dto.out;
 
 public record ServicoResponse(
         Long id,

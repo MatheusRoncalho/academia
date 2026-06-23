@@ -1,4 +1,4 @@
-package com.roncalho.academia.Dto.In;
+package com.roncalho.academia.dto.in;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.constraints.Email;

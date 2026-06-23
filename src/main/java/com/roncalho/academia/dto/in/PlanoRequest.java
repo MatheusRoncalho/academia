@@ -1,4 +1,4 @@
-package com.roncalho.academia.Dto.In;
+package com.roncalho.academia.dto.in;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

@@ -1,9 +1,10 @@
-package com.roncalho.academia.Dto.In;
+package com.roncalho.academia.dto.in;
 
 import jakarta.validation.constraints.NotBlank;
 
-public record EspecialidadeRequest(
+public record ServicoRequest(
         @NotBlank(message = "O nome é obrigatório") String nome,
-        String descricao
+        String descricao,
+        Boolean ativo
 ) {
 }
