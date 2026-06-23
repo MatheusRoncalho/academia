@@ -35,7 +35,7 @@ public class ContratoPlano extends AbstractAuditable {
 
     @Enumerated(EnumType.STRING)
     @Column(length = 20, nullable = false)
-    private ContratoStatus status;
+    private ContratoStatus status = ContratoStatus.ATIVO;
 
     @PrePersist
     @PreUpdate

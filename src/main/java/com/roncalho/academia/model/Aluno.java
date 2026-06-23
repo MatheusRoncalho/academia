@@ -39,9 +39,7 @@ public class Aluno extends AbstractAuditable {
 
     @Enumerated(EnumType.STRING)
     @Column(length = 20, nullable = false)
-    private AlunoStatus status;
-
-    // criadoEm and atualizadoEm are provided by AbstractAuditable
+    private AlunoStatus status = AlunoStatus.ATIVO;
 
     @PrePersist
     private void prePersist() {
